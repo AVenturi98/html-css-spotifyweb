@@ -1,3 +1,9 @@
+:root {
+    --white: #ffffff;
+    --gray: #282828;
+    --light-gray: #858585;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +16,7 @@ ul, ol {
 
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 img {
@@ -18,17 +25,45 @@ img {
 
 /* PLAYER BAR */
 
+.player {
+    background-color: var(--gray);
+    height: 90px;
+}
+
 .nav-player {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--white);
 }
 
+/* BOX LEFT */
+
+.box-lt {
+    padding: 20px 12px;
+}
+
+.mn-lt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.mn-lt .img-player {
+    width: 40px;
+}
+
+.nome_brano {
+    font-size: 1.8vh;
+}
+
+.mn-lt > * :not(strong) {
+    color: var(--light-gray);
+}
 
 /* DEBUG */
 
 .debug {
-    height: 150px;
-    width: 150px;
     background-color: rgb(192, 56, 56);
 }
