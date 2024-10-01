@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <script src="https://kit.fontawesome.com/506ee90a65.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -36,25 +39,24 @@
         <div class="nav-player"> 
             <div class="nav-box lt">
                 <div class="box-lt">
-                    <div class="mn-lt">
-                        <figure class="img-player">
-                            <img src="./img/sinister.jpeg">
-                        </figure>
-                        <div>
-                            <strong>Sinister</strong>
-                            <p class="nome_brano">Brano Nome</p>
-                        </div>
+                    <figure class="img-player">
+                        <img src="./img/sinister.jpeg">
+                    </figure>
+                    <div class="info-brano">
+                        <strong>Sinister</strong><br>
+                        <a href="#" class="nome_brano">Brano Nome</a>
+                    </div>
+                    <div class="icon_lt">
                         <a href="#">
                             <i class="h-f fa-regular fa-heart"></i>
                         </a>
                         <a href="#"> 
                             <i class="h-f fa-regular fa-folder"></i>
-                        </a>                      
-                    </div>                    
+                        </a>  
+                    </div>                                        
                 </div>
             </div>
             <div class="nav-box ct">
-                <div class="box-ct">
                     <div class="play-bar">
                         <a href="#">
                             <i class="nav_play_icon fa-solid fa-shuffle"></i>
@@ -73,20 +75,18 @@
                         </a>
                         <div class="time-bar"> 
                             <strong class="numb-time">0:36</strong>
-                            <a href="">
+                            <a href="#">
                                 <div class=" line_time"><span class="time_scroll"></span></div>
                             </a>                           
                             <strong class="numb-time">2:13</strong>
                         </div>
                     </div>
-                </div>
             </div>
             <div class="nav-box rt">
-                <div class="box-rt">
-                    <i class="fa-solid fa-list-ul"></i>
-                    <i class="fa-solid fa-tv"></i>
-                    <i class="fa-solid fa-volume-high"></i><span><div class="vol_scroll"></div></span>
-                    
+                <div class="box-lt">
+                    <i class="icon_vol fa-solid fa-list-ul"></i>
+                    <i class="icon_vol fa-solid fa-tv"></i>
+                    <i class="icon_vol fa-solid fa-volume-high"></i><a href="#"><div class="vol_scroll"></div></a>
                 </div>
             </div>
         </div>

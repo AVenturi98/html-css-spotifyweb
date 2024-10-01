@@ -1,0 +1,115 @@
+/* LARGE */
+
+@media (max-width:992px) {
+    
+    .box-lt, .box-rt, .time-bar {
+        gap: 5px;
+    }
+
+    .h-f {
+        padding: 5px;
+    }
+
+    .info-brano {
+        font-size: 14px;
+    }
+
+    .h-f, .nav_play_icon, .play-bar  {
+        font-size: 18px;
+    }
+
+    .play_icon {
+        font-size: 30px;
+    }
+
+    .numb-time, .icon_vol {
+        font-size: 15px;
+        padding: 0 5px
+    }
+
+    .line_time {
+        width: 250px;
+    }
+}
+
+/* MEDIUM */
+
+@media (max-width:768px) {
+
+    .info-brano {
+        font-size: 11px;
+    }
+
+    .numb-time, .icon_vol {
+        font-size: 13px;
+    }
+    
+    .line_time {
+        width: 200px;
+    }
+    
+    .vol_scroll {
+        width: 70px;
+    }
+}
+
+/* SMALL */
+
+@media (max-width:576px) {
+
+    .box-lt {
+        padding-left: 5px;
+    }
+    
+    .numb-time, .icon_vol {
+        font-size: 10px;
+        padding: 0 3px
+    }
+
+    .nav_play_icon  {    
+        padding: 0 15px;
+        font-size: 15px;
+    
+    }.play_icon {
+        font-size: 28px;
+    }
+
+    .line_time {
+        width: 160px;
+    }
+}
+
+/* X-SMALL */
+
+@media (width<576px) {
+    
+    .icon_vol, .h-f, strong {
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .numb-time, .nome_brano {
+        font-size: 8px;
+    }
+
+    .nav_play_icon  {    
+        padding: 0 7px;
+        font-size: 15px;
+    }
+
+    .play_icon {
+        font-size: 23px;
+    }
+
+    .line_time {
+        width: 110px;
+    }
+
+    .vol_scroll {
+        width: 50px;
+    }
+
+    .line_time, .vol_scroll {
+        padding: 2px;
+    }
+}
