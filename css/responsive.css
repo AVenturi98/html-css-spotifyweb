@@ -71,10 +71,41 @@
 
 @media (width<576px) {
 
+    /* SIDEBAR */
+
+    .logo-bg, 
+    .text_side, 
+    .playlist, 
+    .user,
+    .load_app,
+    #hr {
+        display: none;
+    }
+
+    .w-row_lt {
+        width: 80px;
+    }
+
+    .logo {
+        width: 35px;
+    }
+
     /* PLAYER */
 
-    .nav-box {
+    .nav-box{
         width: 100vw;
+    }
+
+    .rt {
+        padding: 0 5px;
+    }
+
+    .box-lt {
+        padding: 0;
+    }
+
+    .numb-time, .line_time {
+        padding: 0px;
     }
     
     .icon_vol, .h-f, strong {
@@ -87,7 +118,7 @@
     }
 
     .nav_play_icon  {    
-        padding: 0 7px;
+        padding: 0 4px;
         font-size: 15px;
     }
 
@@ -96,7 +127,7 @@
     }
 
     .line_time {
-        width: 110px;
+        width: 90px;
     }
 
     .vol_scroll {

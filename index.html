@@ -18,17 +18,19 @@
         
         <div class="menu-explorer">
             <div class="w-row_lt side-bar">
-                <a href="#">
-                    <img class="logo" src="./img/logo.svg">
-                </a>
-                <div >
+                <div class="logo">
+                    <a href="#">
+                        <img class="logo logo-bg" src="./img/logo.svg">
+                        <img class="logo logo-sm" src="./img/logo-small.svg">
+                    </a>
+                </div>
+                <div>
                     <div class="side-btn">
                         <a href="#" class="home_btn">
                             <div class="center_text">
                                 <img class="icon_side" src="./img/home.svg">
                                 <span class="text_side">Home</span>
                             </div>
-                            
                         </a>
                     </div>
                     <div class="side-btn">
@@ -80,13 +82,19 @@
                             <a href="#">Nome Playlist</a>>
                         </li>
                     </ul>
-                    <div class="foot-side">
-                        <a class="color_up" href="#"><h5 class="load-app"><i class="icon_load_app fa-solid fa-arrow-down"></i>Installa app</h5></a>
-                        <div id="hr"></div>
-                        <h3 class="user"><i class="icon_user fa-regular fa-circle-user"></i>John Doe</h3>                      
-                    </div>
                 </div>
-                
+                <div class="space_margin"></div>
+                <div class="foot-side">
+                    <a class="color_up user-tap" href="#">
+                        <i class="icon_load_app fa-solid fa-arrow-down"></i>
+                        <h5 class="load_app">Installa app</h5>
+                    </a>
+                    <div id="hr"></div>
+                    <div class="user-tap">
+                        <i class="icon_user fa-regular fa-circle-user"></i>
+                        <h3 class="user">John Doe</h3> 
+                    </div>
+                </div>                
             </div>
                 <div class="w-row_rt chose-menu">ciao</div>
         </div>
@@ -133,15 +141,16 @@
                             </a>
                             <div class="time-bar"> 
                                 <strong class="numb-time">0:36</strong>
-                                <a href="#">
-                                    <div class=" line_time"><span class="time_scroll"></span></div>
-                                </a>                           
+                                <div class=" line_time">
+                                    <a href="#">
+                                    <span class="time_scroll"></span></a>                           
+                                </div>
                                 <strong class="numb-time">2:13</strong>
                             </div>
                         </div>
                 </div>
                 <div class="nav-box rt">
-                    <div class="box-rt box-lt">
+                    <div class="box-rt">
                         <i class="icon_vol fa-solid fa-list-ul"></i>
                         <i class="icon_vol fa-solid fa-tv"></i>
                         <i class="icon_vol fa-solid fa-volume-high"></i><a href="#"><div class="vol_scroll"></div></a>

@@ -47,13 +47,16 @@ a {
     margin-bottom: 30px;
 }
 
+.logo-sm {
+    display: none;
+}
+
 .w-row_lt {
     width: 260px;
-    flex-shrink: 0;
 }
 
 .side-btn, h2 {
-    margin: 15px 10px;
+    margin: 15px 0 10px 0;
 }
 
 .center_text {
@@ -98,7 +101,7 @@ h2 {
     font-weight: bold;
 }
 
-.name-pl {
+.space_margin {
     margin-bottom: 400px;
 }
 
@@ -121,6 +124,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+.user-tap {
+    display: flex;
+    align-items: center;
+}
+
 .user {
     font-size: 20px;
 } 
@@ -130,7 +138,7 @@ h2 {
 }
 
 
-/* destra */
+/* EXPLORER VIEW */
 
 .w-row_rt {
     width: 100vw;
@@ -162,7 +170,6 @@ h2 {
 }
 
 .box-lt {
-    gap:20px;
     padding: 10px;
 }
 
@@ -218,7 +225,7 @@ h2 {
 }
 
 .time-bar > * {
-    padding: 10px 10px 0;
+    padding: 0 15px;
 }
 
 .line_time {
@@ -229,6 +236,16 @@ h2 {
 }
 
 /* BOX RIGHT */
+
+.box-rt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-rt > * {
+    padding:0 10px
+}
 
 .vol_scroll {
     background-color: var(--light-gray);
