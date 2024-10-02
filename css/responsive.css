@@ -82,12 +82,25 @@
         display: none;
     }
 
+    .logo-sm {
+        position: relative;
+        opacity: 1;
+    }
+
     .w-row_lt {
         width: 80px;
     }
 
     .logo {
         width: 35px;
+    }
+
+    .nav__btn {
+        flex-grow: 1;
+    }
+
+    .icon_load_app {
+        padding-left: 6px;
     }
 
     /* PLAYER */
@@ -100,17 +113,21 @@
         padding: 0 5px;
     }
 
-    .box-lt {
-        padding: 0;
+    .info-brano {
+        padding: 3px;
     }
 
-    .numb-time, .line_time {
+    .play-bar {
+        padding: 0 5px;
+        margin: 0 auto;
+    }
+
+    .box-lt, .numb-time, .line_time {
         padding: 0px;
     }
     
     .icon_vol, .h-f, strong {
-        font-size: 10px;
-        padding: 0;
+        font-size: 10px;   
     }
 
     .numb-time, .nome_brano {
@@ -127,7 +144,11 @@
     }
 
     .line_time {
-        width: 90px;
+        width: 79px;
+    }
+
+    .icon_vol {
+        padding: 0 1px;
     }
 
     .vol_scroll {
@@ -135,7 +156,7 @@
     }
 
     .line_time, .vol_scroll {
-        padding: 2px;
+        padding: 2px ;
     }
     
 }

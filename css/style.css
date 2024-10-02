@@ -35,28 +35,45 @@ a {
 
 .menu-explorer  {
     display: flex;
+    height:100vh;
 }
 
 .side-bar {
     background-color: var(--black);
     color: var(--font_grey);
-    padding: 20px 
+    padding: 20px;
+    position: relative;
 }
 
-.logo {
+.logo-bg {
     margin-bottom: 30px;
 }
 
 .logo-sm {
-    display: none;
+    width: 1;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .w-row_lt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 260px;
 }
 
 .side-btn, h2 {
     margin: 15px 0 10px 0;
+}
+
+.nav__btn {
+    flex-grow: 0;
+}
+
+.playlist {
+    flex-grow: 3;
 }
 
 .center_text {
@@ -73,9 +90,7 @@ a {
     padding: 10px;
 }
 
-.color_up:hover {
-    color: var(--white);
-}
+
 
 .home_btn, h2, .user, .icon_user {
     color: var(--white);
@@ -99,10 +114,6 @@ h2 {
     font-size: 16px;
     padding-top: 20px;
     font-weight: bold;
-}
-
-.space_margin {
-    margin-bottom: 400px;
 }
 
 .icon_plus {
@@ -137,11 +148,16 @@ h2 {
     font-size: 25px;
 }
 
+.color_up:hover {
+    color: var(--white);
+}
+
 
 /* EXPLORER VIEW */
 
 .w-row_rt {
     width: 100vw;
+    height: 100vh;
     background-color: var(--blue_night);
     color: #ffffff;
 }
@@ -175,6 +191,10 @@ h2 {
 
 .img-player img {
     width: 40px;
+}
+
+.info-brano {
+    padding: 0 15px
 }
 
 .h-f {
@@ -253,3 +273,10 @@ h2 {
     padding: 3px;
     border-radius: 999px;
 }
+
+/* .player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  } */
