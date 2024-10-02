@@ -1,13 +1,11 @@
 /* LARGE */
 
 @media (max-width:992px) {
-    
-    .box-lt, .box-rt, .time-bar {
-        gap: 5px;
-    }
 
-    .h-f {
-        padding: 5px;
+    /* PLAYER */
+    
+    .box-lt, .box-rt, .time-bar, .play-bar {
+        gap: 5px;
     }
 
     .info-brano {
@@ -22,11 +20,6 @@
         font-size: 30px;
     }
 
-    .numb-time, .icon_vol {
-        font-size: 15px;
-        padding: 0 5px
-    }
-
     .line_time {
         width: 250px;
     }
@@ -36,9 +29,15 @@
 
 @media (max-width:768px) {
 
+    /* PLAYER */
+
     .info-brano {
         font-size: 11px;
     }
+
+    /* .h-f {
+        padding: 0
+    } */
 
     .numb-time, .icon_vol {
         font-size: 13px;
@@ -57,20 +56,9 @@
 
 @media (max-width:576px) {
 
-    .box-lt {
-        padding-left: 5px;
-    }
+    /* PLAYER */
     
-    .numb-time, .icon_vol {
-        font-size: 10px;
-        padding: 0 3px
-    }
-
-    .nav_play_icon  {    
-        padding: 0 15px;
-        font-size: 15px;
-    
-    }.play_icon {
+    .play_icon {
         font-size: 28px;
     }
 
@@ -82,6 +70,12 @@
 /* X-SMALL */
 
 @media (width<576px) {
+
+    /* PLAYER */
+
+    .nav-box {
+        width: 100vw;
+    }
     
     .icon_vol, .h-f, strong {
         font-size: 10px;
@@ -97,7 +91,7 @@
         font-size: 15px;
     }
 
-    .play_icon {
+    .play_icon, .rt {
         font-size: 23px;
     }
 
@@ -112,4 +106,5 @@
     .line_time, .vol_scroll {
         padding: 2px;
     }
+    
 }

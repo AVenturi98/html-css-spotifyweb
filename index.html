@@ -13,84 +13,142 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <main>
-        
-        <!-- MENU SCELTA -->
-        
-        <section>
-            <div class="menu-explorer">
-                <div class="w-row_lt side-bar">
-                    <a href="#">
-                        <img class="logo" src="./img/logo.svg">
-                    </a>
-                </div>
-                <div class="w-row_rt chose-menu">
-                    ciao
-                </div>
-            </div>
-        </section>
 
-    </main>
+    <!-- EXPLORER -->
+        
+        <div class="menu-explorer">
+            <div class="w-row_lt side-bar">
+                <a href="#">
+                    <img class="logo" src="./img/logo.svg">
+                </a>
+                <div >
+                    <div class="side-btn">
+                        <a href="#" class="home_btn">
+                            <div class="center_text">
+                                <img class="icon_side" src="./img/home.svg">
+                                <span class="text_side">Home</span>
+                            </div>
+                            
+                        </a>
+                    </div>
+                    <div class="side-btn">
+                        <a href="#">
+                            <div class="center_text">
+                                <img class="icon_side" src="./img/search.svg">
+                                <span class="text_side color_up">Cerca</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="side-btn">
+                        <a href="#">
+                            <div class="center_text">
+                                <img class="icon_side" src="./img/libreria.svg">
+                                <span class="text_side color_up">La tua libreria</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <h2>PLAYLIST</h2>
+                    <div class=" color_up">
+                        <a class="main-pl" href="#">                        
+                            <i class="color_up icon_plus fa-solid fa-plus"></i>
+                            <strong class="create_pl">Crea la tua playlist</strong>
+                        </a>
+                    </div>
+                    </a>
+                    <ul class="name-pl">
+                        <li class="new-pl color_up">
+                            <a href="#">Nome Playlist</a>>
+                        </li>
+                        <li class="new-pl color_up">
+                            <a href="#">Nome Playlist</a>>
+                        </li>
+                        <li class="new-pl color_up">
+                            <a href="#">Nome Playlist</a>>
+                        </li>
+                        <li class="new-pl color_up">
+                            <a href="#">Nome Playlist</a>>
+                        </li>
+                        <li class="new-pl color_up">
+                            <a href="#">Nome Playlist</a>>
+                        </li>
+                        <li class="new-pl color_up">
+                            <a href="#">Nome Playlist</a>>
+                        </li>
+                        <li class="new-pl color_up">
+                            <a href="#">Nome Playlist</a>>
+                        </li>
+                    </ul>
+                    <div class="foot-side">
+                        <a class="color_up" href="#"><h5 class="load-app"><i class="icon_load_app fa-solid fa-arrow-down"></i>Installa app</h5></a>
+                        <div id="hr"></div>
+                        <h3 class="user"><i class="icon_user fa-regular fa-circle-user"></i>John Doe</h3>                      
+                    </div>
+                </div>
+                
+            </div>
+                <div class="w-row_rt chose-menu">ciao</div>
+        </div>
 
       <!-- PLAYER BAR -->
     
-      <aside class="player">
-        <div class="nav-player"> 
-            <div class="nav-box lt">
-                <div class="box-lt">
-                    <figure class="img-player">
-                        <img src="./img/sinister.jpeg">
-                    </figure>
-                    <div class="info-brano">
-                        <strong>Sinister</strong><br>
-                        <a href="#" class="nome_brano">Brano Nome</a>
-                    </div>
-                    <div class="icon_lt">
-                        <a href="#">
-                            <i class="h-f fa-regular fa-heart"></i>
-                        </a>
-                        <a href="#"> 
-                            <i class="h-f fa-regular fa-folder"></i>
-                        </a>  
-                    </div>                                        
-                </div>
-            </div>
-            <div class="nav-box ct">
-                    <div class="play-bar">
-                        <a href="#">
-                            <i class="nav_play_icon fa-solid fa-shuffle"></i>
-                        </a>
-                        <a href="#">
-                            <i class="nav_play_icon fa-solid fa-backward-step"></i>
-                        </a>
-                        <a href="#">
-                            <i class="play_icon fa-regular fa-circle-play"></i>
-                        </a>
-                        <a href="#">
-                            <i class="nav_play_icon fa-solid fa-forward-step"></i>
-                        </a>
-                        <a href="#">
-                            <i class="nav_play_icon fa-solid fa-arrow-rotate-right"></i>
-                        </a>
-                        <div class="time-bar"> 
-                            <strong class="numb-time">0:36</strong>
-                            <a href="#">
-                                <div class=" line_time"><span class="time_scroll"></span></div>
-                            </a>                           
-                            <strong class="numb-time">2:13</strong>
+        <aside class="player">
+            <div class="nav-player"> 
+                <div class="nav-box lt">
+                    <div class="box-lt">
+                        <figure class="img-player">
+                            <img src="./img/sinister.jpeg">
+                        </figure>
+                        <div class="info-brano">
+                            <strong>Sinister</strong><br>
+                            <a href="#" class="nome_brano">Brano Nome</a>
                         </div>
+                        <div class="icon_lt">
+                            <a href="#">
+                                <i class="h-f fa-regular fa-heart"></i>
+                            </a>
+                            <a href="#"> 
+                                <i class="h-f fa-regular fa-folder"></i>
+                            </a>  
+                        </div>                                        
                     </div>
-            </div>
-            <div class="nav-box rt">
-                <div class="box-lt">
-                    <i class="icon_vol fa-solid fa-list-ul"></i>
-                    <i class="icon_vol fa-solid fa-tv"></i>
-                    <i class="icon_vol fa-solid fa-volume-high"></i><a href="#"><div class="vol_scroll"></div></a>
+                </div>
+                <div class="nav-box ct">
+                        <div class="play-bar">
+                            <a href="#">
+                                <i class="nav_play_icon fa-solid fa-shuffle"></i>
+                            </a>
+                            <a href="#">
+                                <i class="nav_play_icon fa-solid fa-backward-step"></i>
+                            </a>
+                            <a href="#">
+                                <i class="play_icon fa-regular fa-circle-play"></i>
+                            </a>
+                            <a href="#">
+                                <i class="nav_play_icon fa-solid fa-forward-step"></i>
+                            </a>
+                            <a href="#">
+                                <i class="nav_play_icon fa-solid fa-arrow-rotate-right"></i>
+                            </a>
+                            <div class="time-bar"> 
+                                <strong class="numb-time">0:36</strong>
+                                <a href="#">
+                                    <div class=" line_time"><span class="time_scroll"></span></div>
+                                </a>                           
+                                <strong class="numb-time">2:13</strong>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-box rt">
+                    <div class="box-rt box-lt">
+                        <i class="icon_vol fa-solid fa-list-ul"></i>
+                        <i class="icon_vol fa-solid fa-tv"></i>
+                        <i class="icon_vol fa-solid fa-volume-high"></i><a href="#"><div class="vol_scroll"></div></a>
+                    </div>
                 </div>
             </div>
-        </div>
-      </aside>
+        </aside>
     
 </body>
 </html>
