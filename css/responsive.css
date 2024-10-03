@@ -2,6 +2,34 @@
 
 @media (max-width:992px) {
 
+    /* EXPLORER */
+
+    .button_upgrade {
+        border: 2px solid var(--white);
+        padding: 15px 35px;
+        margin: 40px;
+        text-transform: uppercase;
+        border-radius: 999px;
+        font-size: 18px;
+    }
+
+    .select-view {
+        gap: 40px;
+        margin: 40px; 
+        font-size: 18px;
+        text-decoration-style: bold;
+        color: var(--font__gray);
+    }
+
+    .main-menu {
+        padding: 18px;
+    }
+    
+    .main-selection {
+        gap: 18px
+    }
+
+
     /* PLAYER */
     
     .box-lt, .box-rt, .time-bar, .play-bar {
@@ -29,15 +57,39 @@
 
 @media (max-width:768px) {
 
+    /* EXPLORER */
+
+    .button_upgrade {
+        border: 2px solid var(--white);
+        padding: 10px 20px;
+        margin: 25px;
+        text-transform: uppercase;
+        border-radius: 999px;
+        font-size: 16px;
+    }
+
+    .select-view {
+        gap: 25px;
+        margin: 20px; 
+        font-size: 0.8em;
+        text-decoration-style: bold;
+        color: var(--font__gray);
+    }
+
+    .main-menu {
+        padding: 15px;
+    }
+    
+    .main-selection {
+        gap: 15px
+    }
+
+
     /* PLAYER */
 
     .info-brano {
         font-size: 11px;
     }
-
-    /* .h-f {
-        padding: 0
-    } */
 
     .numb-time, .icon_vol {
         font-size: 13px;
@@ -55,6 +107,16 @@
 /* SMALL */
 
 @media (max-width:576px) {
+
+    /* EPLORER */
+
+    .main-menu {
+        padding: 12px;
+    }
+    
+    .main-selection {
+        gap: 12px
+    }   
 
     /* PLAYER */
     
@@ -88,11 +150,15 @@
     }
 
     .w-row_lt {
-        width: 80px;
+        width: 60px;
     }
 
-    .logo {
-        width: 35px;
+    .logo, .icon_user {
+        font-size: 20px;
+    }
+
+    .icon_side {
+        width: 25px;
     }
 
     .nav__btn {
@@ -100,7 +166,34 @@
     }
 
     .icon_load_app {
-        padding-left: 6px;
+        padding-left: 3px;
+    }
+
+     /* EXPLORER */
+
+     .button_upgrade {
+        border: 1px solid var(--white);
+        padding: 5px 10px;
+        margin: 15px 20px 15px auto;
+        text-transform: uppercase;
+        border-radius: 999px;
+        font-size: 12px
+    }
+
+    .select-view {
+        gap: 15px;
+        margin: 10px; 
+        font-size: 0.6em;
+        text-decoration-style: bold;
+        color: var(--font__gray);
+    }
+
+    .main-menu {
+        padding: 10px;
+    }
+    
+    .main-selection {
+        gap: 10px
     }
 
     /* PLAYER */
