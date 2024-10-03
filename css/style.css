@@ -50,7 +50,7 @@ a {
 }
 
 .logo-sm {
-    width: 1;
+    width: 1px;
     opacity: 0;
     position: absolute;
     top: 0;
@@ -66,6 +66,10 @@ a {
 
 .side-btn, h2 {
     margin: 15px 0 10px 0;
+}
+
+.side-btn:hover {
+    border-left: 3px solid green;
 }
 
 .nav__btn {
@@ -195,6 +199,7 @@ h2 {
 
 .select-view > *:hover {
     color: var(--white);
+    border-bottom: 3px solid green;
 }
 
 .main-menu {
@@ -265,6 +270,10 @@ h2 {
     font-size:12px
 }
 
+h5 {
+    color: var(--font_grey);
+}
+
 .cover_circle img {
     border-radius: 999px;
 }
@@ -277,7 +286,7 @@ h2 {
     height: 90px;
     position: sticky;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .nav-player {

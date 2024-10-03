@@ -144,9 +144,18 @@
         display: none;
     }
 
+    .side-bar {
+        padding: 10px
+    }
+
     .logo-sm {
         position: relative;
         opacity: 1;
+        width: 35px;
+    }
+
+    .side-btn, .foot-side {
+        padding-left: 4px;
     }
 
     .w-row_lt {
