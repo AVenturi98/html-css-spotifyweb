@@ -120,7 +120,7 @@ h2 {
     font-weight: bold;
 }
 
-.icon_plus {
+.fa-plus {
     font-size: 40px;
     color: var(--black);
     background-color: var(--font_grey);
@@ -152,10 +152,9 @@ h2 {
     font-size: 25px;
 }
 
-.color_up:hover {
+.color_up:hover, .main-pl >*:hover {
     color: var(--white);
 }
-
 
 /* EXPLORER VIEW */
 
@@ -183,7 +182,14 @@ h2 {
 }
 
 .button_upgrade:hover {
-    font-size: 110%;
+    /* animation-name: btn_upgrade;
+    animation-duration: .3s;
+    animation-fill-mode: forwards; */
+    animation: btn_upgrade .3s forwards;
+}
+
+@keyframes btn_upgrade {
+    to {font-size: 110%;}
 }
 
 .select-view {
@@ -238,7 +244,7 @@ h2 {
     margin-bottom: 5px;
 }
 
-.subtitle_song {
+.subtitle_song, .mini_title {
     color: var(--font_grey);
 }
 
@@ -270,12 +276,20 @@ h2 {
     font-size:12px
 }
 
-h5 {
-    color: var(--font_grey);
-}
-
 .cover_circle img {
     border-radius: 999px;
+}
+
+.cover_circle:hover img {
+    /* animation-name: cover_rotate;
+    animation-duration: 2.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    animation: cover_rotate 2.9s infinite linear;
+}
+
+@keyframes cover_rotate {
+    to {transform: rotate(365deg);}
 }
 
     /* PLAYER BAR */
